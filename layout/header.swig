@@ -2,9 +2,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ config.title }}</title>
-    <meta name="description" content="{{ theme.description }}" />
-    <meta name="keywords" content="{{ theme.keywords }}" />
-    <meta name="author" content="{{ theme.author }}" />
+    <meta name="description" content="{{ config.description }}" />
+    <meta name="keywords" content="{{ config.keywords }}" />
+    <meta name="author" content="{{ config.author }}" />
     {% if theme.favicon.apple_touch_icon %}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
     {% endif %}
@@ -27,6 +27,3 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
     <link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/default.css" />
     <link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/component.css" />
-    <link rel="stylesheet" href="{{ url_for(theme.css) }}/font-awesome.min.css">
-    <script src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
-    <script src="{{ url_for(theme.js) }}/modernizr.custom.js"></script>
