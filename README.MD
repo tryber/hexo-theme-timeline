@@ -4,7 +4,7 @@ A simple hexo theme just for generating a timeline page. **It is unstable**.
 
 # Screenshot
 
-![screenshot](screenshot/_trybe_.png)
+![screenshot](screenshot/screenshot_trybe_.png)
 
 # How to use
 
