@@ -10,7 +10,7 @@ A simple hexo theme just for generating a timeline page. **It is unstable**.
 
 ```bash
 $ cd hexo
-$ git clone https://github.com/LGiki/hexo-theme-timeline themes/timeline
+$ git clone https://github.com/tryber/hexo-theme-timeline themes/timeline
 ```
 
 Then modify your site's `_config.yml` file:
