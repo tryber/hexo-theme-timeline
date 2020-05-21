@@ -23,6 +23,8 @@
     {% if theme.favicon.ms_browserconfig %}
     <meta name="msapplication-config" content="{{ url_for(theme.favicon.ms_browserconfig) }}" />
     {% endif %}
+    <link rel="stylesheet" href="{{ url_for(theme.css) }}/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap">
     <link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/default.css" />
     <link rel="stylesheet" type="text/css" href="{{ url_for(theme.css) }}/component.css" />
     <link rel="stylesheet" href="{{ url_for(theme.css) }}/font-awesome.min.css">
