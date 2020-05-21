@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     {% include 'header.swig' %}
   </head>
+
   <body>
   <div class="container">
     <header class="clearfix">
       <h1>{{ config.title }}</h1>
+      {% if config.subtitle %}
+      <h3>{{ config.subtitle }}</h3>
+      {% endif %}
     </header>
     <div class="main">
       <ul class="cbp_tmtimeline">
